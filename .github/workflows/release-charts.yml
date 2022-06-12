@@ -25,3 +25,5 @@ jobs:
 
       - name: Helm Chart Releaser 2
         uses: web-seven/chart-releaser-action@v2.0.10
+        env:
+          CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
