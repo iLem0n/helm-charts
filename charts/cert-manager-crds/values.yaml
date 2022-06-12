@@ -5,7 +5,6 @@
 namespace: ""
 email: "peter.c.glade@googlemail.com"
 
-
 replicaCount: 1
 
 image:
